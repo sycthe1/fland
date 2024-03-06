@@ -23,7 +23,11 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	color: #000000;
+	vertical-align: baseline;
+	
+}
+	
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -56,7 +60,7 @@ body {
 }
 
 mark {
-	background-color: transparent;
+	background-color: rgb(152, 144, 144);
 	color: inherit;
 }
 
@@ -83,7 +87,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #f3f6fa;
+		background: transparent;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -98,7 +102,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #7c8081;
+		color: #000202;
 		font-family: 'Lato', sans-serif;
 		font-size: 15pt;
 		font-weight: 300;
@@ -426,6 +430,7 @@ input, select, textarea {
 		.row.gtr-50 {
 			margin-top: -25px;
 			margin-left: -25px;
+			color: #1c2021;
 		}
 
 			.row.gtr-50 > * {
